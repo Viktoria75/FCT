@@ -1,0 +1,123 @@
+/* General styles for the user profile container */
+.user-profile {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .user-profile h1, .user-profile h2 {
+    color: #2f822f; /* Green color */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Paragraph styles */
+  .user-profile p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .user-profile button {
+    background-color: #2f822f; /* Green background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cancel button specific styles */
+  .user-profile form button[type="button"] {
+    background-color: #ccc; /* Light grey background for cancel button */
+  }
+  
+  .user-profile form button[type="button"]:hover {
+    background-color: #999; /* Darker grey background on hover */
+  }
+  
+  /* Button hover effect */
+  .user-profile button:hover {
+    background-color: #256b25; /* Darker green background */
+  }
+  
+  /* Form styles */
+  .user-profile form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styles */
+  .user-profile form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Input styles */
+  .user-profile form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Modal overlay styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top of other elements */
+  }
+  
+  /* Confirmation dialog styles */
+  .confirm-delete {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Confirmation dialog header styles */
+  .confirm-delete h2 {
+    color: #d9534f; /* Red color */
+    margin-bottom: 20px;
+  }
+  
+  /* Confirmation dialog button styles */
+  .confirm-delete button {
+    background-color: #d9534f; /* Red background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Confirmation dialog button hover effect */
+  .confirm-delete button:hover {
+    background-color: #c9302c; /* Darker red background */
+  }
+  

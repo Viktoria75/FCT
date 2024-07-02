@@ -1,0 +1,78 @@
+/* nav{
+    display:flex;
+    flex-direction: row;
+    background-color:rgb(47, 130, 47)
+}
+
+.nav-link{
+    padding:1rem;
+    color:white;
+    text-decoration: none;
+} */
+ /* Styling for the navigation container */
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between left and right aligned items */
+    align-items: center; /* Center items vertically */
+    background-color: rgb(47, 130, 47);
+    padding: 0.5rem;
+}
+
+/* Container for left-aligned navigation links */
+.nav-links-left {
+    display: flex;
+    flex-direction: row;
+    margin-left:1rem;
+}
+
+/* Common styling for all navigation links */
+.nav-link {
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighten the background on hover */
+    border-radius: 4px; /* Rounded corners for hover effect */
+}
+
+/* Container for right-aligned navigation links */
+.nav-links-right {
+    display: flex;
+    flex-direction: row;
+    margin-right:2rem;
+}
+
+/* Styling for the logout button */
+button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 1rem; /* Add margin to separate from other elements */
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the logout button */
+button:hover {
+    background-color: #45a049; /* Darken the background on hover */
+    transform: scale(1.05);
+}
+
+.users-link {
+    background-color: #1f82d3;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+/* Hover effect for the "Users" link */
+.users-link:hover {
+    background-color: rgb(60, 60, 225); /* Darken the blue on hover */
+}

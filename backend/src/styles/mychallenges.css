@@ -1,0 +1,61 @@
+/* Main container for the MyChallenges component */
+.mychallenges {
+    background-color: #e7e7e7; /* Light background color */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 500px;
+  }
+  
+  /* Header styling */
+  .mychallenges h2 {
+    font-size: 2rem;
+    color: #2f822f; /* Green color */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Paragraph styling for no challenges found and loading text */
+  .mychallenges p {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* List styling */
+  .mychallenges ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* List item styling */
+  .mychallenges li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect for list items */
+  .mychallenges li:hover {
+    background-color: #e6f7e6; /* Light green background */
+    transform: scale(1.02); /* Slight scale effect */
+  }
+  
+  /* Link styling */
+  .mychallenges a {
+    text-decoration: none;
+    color: #2f822f; /* Green color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .mychallenges a:hover {
+    color: #226622; /* Darker green color */
+  }
+  
+  

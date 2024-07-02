@@ -1,0 +1,52 @@
+/* challenge-card.css */
+
+.challenge-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    min-width: 300px;
+    margin:2rem;
+  }
+  
+  .challenge-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .challenge-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .challenge-card p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .challenge-card p strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .challenge-card .details-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .challenge-card .details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .challenges-wrapper{
+    display: flex;
+    flex-wrap:wrap;
+  }

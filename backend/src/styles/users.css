@@ -1,0 +1,87 @@
+/* users.css */
+
+.users-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .users-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .users-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .users-page li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:black
+  }
+  
+  .users-page li button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .users-page li button.edit-buttons {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .users-page li button.edit-buttons:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-form {
+    margin-top: 20px;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  .edit-form button {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-form button[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  .edit-form button[type="submit"]:hover,
+  .edit-form button[type="button"]:hover {
+    background-color: #218838;
+  }
+  

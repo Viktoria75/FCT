@@ -1,0 +1,102 @@
+/* challenge-details.css */
+
+.challenge-details {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.challenge-details p {
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.challenge-details div {
+  margin-top: 10px;
+}
+
+.challenge-details button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.challenge-details button:hover {
+  background-color: #0056b3;
+}
+
+.challenge-details form {
+  margin-top: 10px;
+}
+
+.challenge-details form div {
+  margin-bottom: 10px;
+}
+
+.challenge-details form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.challenge-details form input[type="number"],
+.challenge-details form input[type="text"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for admin buttons */
+.admin-buttons {
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.admin-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.admin-buttons button:hover {
+  background-color: #c82333;
+}
+
+.challenge-details form button[type="submit"] {
+  background-color: #28a745;
+}
+
+.challenge-details form button[type="submit"]:hover,
+.challenge-details form button[type="button"]:hover {
+  background-color: #218838;
+}
+
+.adminbtn1{
+    margin-right:1rem;
+}

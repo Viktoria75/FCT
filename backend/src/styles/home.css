@@ -1,0 +1,105 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    padding:2rem;
+}
+  
+  /* Additional styles for the content */
+  .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;/* Example: Adjust top margin as needed */
+  }
+  
+  .item-wrapper1 {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)), url(../../public/images/runningman.jpg);
+    border-radius:1rem;
+    color:white;
+    margin:2rem;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align:center;
+    padding: 100px 0px;
+  }
+
+  .item-wrapper2 {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)), url(../../public/images/tracking.jpg);
+    border-radius:1rem;
+    color:white;
+    margin:2rem;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align:center;
+    padding: 100px 0px;
+  }
+
+  .item-wrapper3 {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(4, 9, 30, 0.7), rgb(4, 9, 30, 0.7)), url(../../public/images/collab.jpg);
+    border-radius:1rem;
+    color:white;
+    margin:2rem;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align:center;
+    padding: 100px 0px;
+  }
+  
+  
+  .item {
+    text-align: center;
+    padding: 20px; /* Example: Background color for items */
+    border-radius: 8px; /* Example: Border radius for items */
+  }
+
+  
+  .item-description {
+    margin-top: 10px;
+     /* Example: Adjust top margin as needed */
+  }
+
+  .sign-up{
+    margin:2rem;
+    text-decoration: none;
+    color:black;
+    font-size:70px;
+    font-weight: bolder;
+  }
+  
+  .starting-desc{
+    color:white;
+    /* background-color: rgb(72, 128, 216); */
+    padding:2rem;
+    margin:1rem;
+    font-weight:bold;
+    font-size:large;
+    border-radius:1rem;
+  }
+
+  .title{
+    font-size:60px;
+  }
