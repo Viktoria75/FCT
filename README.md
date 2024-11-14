@@ -3,7 +3,7 @@ The Fitness Challenge Tracker is a web application designed to facilitate fitnes
 
 **How to run the app:**
 
-Make sure you have MongoDB installed and running locally, as this project uses a local istance of MongoDB.
+Make sure you have MongoDB installed and running locally, as this project uses a local instance of MongoDB.
 
 **Backend Setup**
 
