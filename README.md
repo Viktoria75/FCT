@@ -1,4 +1,5 @@
 **FCT is a Fitness Challenge Tracker Application made with React & TypeScript as a final project for the React course @ FMI 2024.**
+
 The Fitness Challenge Tracker is a web application designed to facilitate fitness challenges among users. It encourages a healthy lifestyle by allowing users to create, join and participate in fitness challenges. Other functions include tracking your own challenge progress and comparing yourself to your friends on leaderboards.
 
 **How to run the app:**
